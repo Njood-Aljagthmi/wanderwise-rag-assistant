@@ -45,4 +45,3 @@ Users can upload city guides, travel notes, itineraries, or PDF articles, then a
 
 4. Upload your travel documents (`.pdf`, `.txt`, `.md`) or use the examples in `sample_docs/`, then start asking questions 
 
-> The app uses **gpt-4o-mini** to generate answers.
