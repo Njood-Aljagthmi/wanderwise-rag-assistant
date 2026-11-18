@@ -1,4 +1,4 @@
-# WanderWise RAG Assistant ✈️🗺️
+# WanderWise RAG Assistant 
 
 WanderWise is a travel-focused RAG assistant that helps users ask questions from local travel documents.
 
@@ -25,9 +25,24 @@ Users can upload city guides, travel notes, itineraries, or PDF articles, then a
 - PyPDF
 - RAG
 
-## How to Run
+##  How to Run
 
-Install dependencies:
+1. **Install the dependencies**
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-```bash
-pip install -r requirements.txt
+2. **Add your OpenAI API key**
+   Create a file named `.env` in the project folder and add:
+   ```
+   OPENAI_API_KEY=your_api_key_here
+   ```
+
+3. **Run the app**
+   ```bash
+   streamlit run app.py
+   ```
+
+4. Upload your travel documents (`.pdf`, `.txt`, `.md`) or use the examples in `sample_docs/`, then start asking questions 
+
+> The app uses **gpt-4o-mini** to generate answers.
